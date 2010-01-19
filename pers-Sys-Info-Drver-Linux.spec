@@ -1,5 +1,5 @@
 %define upstream_name    Sys-Info-Driver-Linux
-%define upstream_version 0.72
+%define upstream_version 0.74
 
 Summary:	Linux driver for Sys::Info  
 Name:		perl-%{upstream_name}
