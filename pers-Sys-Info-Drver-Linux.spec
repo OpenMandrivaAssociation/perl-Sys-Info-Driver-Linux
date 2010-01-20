@@ -11,6 +11,7 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/SYS/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires:  lsb-release
 BuildRequires:	perl(Test::Sys::Info)
 BuildRequires:	perl(Linux::Distribution)
 BuildRequires:	perl(Unix::Processors)
@@ -18,6 +19,7 @@ BuildRequires:	perl-devel
 
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 
+Requires:   lsb-release
 Requires:	perl(Linux::Distribution)
 Requires:	perl(Sys::Info::Base)
 Requires:	perl(Unix::Processors)
