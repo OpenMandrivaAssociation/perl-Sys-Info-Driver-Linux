@@ -6,10 +6,10 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	%mkrel 2
 
 Summary:	Linux driver for Sys::Info
-License:    GPL+ or Artistic
+License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/SYS/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Sys/BURAK/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:  lsb-release
 BuildRequires:	perl(Test::Sys::Info)
