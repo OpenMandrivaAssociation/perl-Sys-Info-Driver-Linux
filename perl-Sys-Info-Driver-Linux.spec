@@ -1,5 +1,5 @@
 %define upstream_name    Sys-Info-Driver-Linux
-%define upstream_version 0.76
+%define upstream_version 0.77
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
