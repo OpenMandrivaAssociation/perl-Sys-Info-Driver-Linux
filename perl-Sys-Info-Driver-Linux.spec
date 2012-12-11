@@ -51,3 +51,31 @@ rm -rf t/03-basic.t
 %doc README Changes
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
+
+
+%changelog
+* Thu Apr 28 2011 Guillaume Rousse <guillomovitch@mandriva.org> 0.780.0-1mdv2011.0
++ Revision: 660017
+- update to new version 0.78
+
+* Sat Aug 07 2010 Tomasz Pawel Gajc <tpg@mandriva.org> 0.770.0-1mdv2011.0
++ Revision: 567391
+- update to new version 0.77
+- update to new version 0.76
+- disable 03-basic test as it fails on perl-5.12.0
+
+* Fri Feb 12 2010 Jérôme Quelin <jquelin@mandriva.org> 0.740.0-2mdv2010.1
++ Revision: 505016
+- renamed spec file to match pkgname
+
+* Wed Jan 20 2010 Jérôme Quelin <jquelin@mandriva.org> 0.740.0-1mdv2010.1
++ Revision: 493969
+- adding missing buildrequires:
+- fix buildrequires:
+- update to 0.74
+
+* Sat Jan 02 2010 Tomasz Pawel Gajc <tpg@mandriva.org> 0.720.0-1mdv2010.1
++ Revision: 484912
+- import perl-Sys-Info-Driver-Linux
+
+
