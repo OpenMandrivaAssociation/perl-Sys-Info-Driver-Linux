@@ -1,15 +1,15 @@
 %define upstream_name    Sys-Info-Driver-Linux
-%define upstream_version 0.78
+%define upstream_version 0.7903
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	%mkrel 1
+Version:	%perl_convert_version 0.7903
+Release:	1
 
 Summary:	Linux driver for Sys::Info
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Sys/BURAK/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Sys/BURAK/Sys-Info-Driver-Linux-0.7903.tar.gz
 
 BuildRequires:  lsb-release
 BuildRequires:	perl(Test::Sys::Info)
@@ -77,5 +77,6 @@ rm -rf t/03-basic.t
 * Sat Jan 02 2010 Tomasz Pawel Gajc <tpg@mandriva.org> 0.720.0-1mdv2010.1
 + Revision: 484912
 - import perl-Sys-Info-Driver-Linux
+
 
 
