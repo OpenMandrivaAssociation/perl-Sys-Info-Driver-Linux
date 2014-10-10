@@ -5,7 +5,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 
 Summary:	Linux driver for Sys::Info
 License:	GPL+ or Artistic
