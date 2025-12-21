@@ -13,6 +13,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Sys/BURAK/Sys-Info-Driver-Linux-%{upstream_version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:  lsb-release
 BuildRequires:	perl(Test::Sys::Info)
 BuildRequires:	perl(Linux::Distribution)
