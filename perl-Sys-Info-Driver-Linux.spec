@@ -1,17 +1,17 @@
 %define upstream_name    Sys-Info-Driver-Linux
-%define upstream_version 0.7903
+%define upstream_version 0.7911
 
 %define debug_package %{nil}
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Linux driver for Sys::Info
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Sys/BURAK/Sys-Info-Driver-Linux-%{upstream_version}.tar.gz
+Url:		https://github.com/burak/CPAN-Sys-Info-Driver-Linux
+Source0:	https://cpan.metacpan.org/authors/id/B/BU/BURAK/Sys-Info-Driver-Linux-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:  lsb-release
